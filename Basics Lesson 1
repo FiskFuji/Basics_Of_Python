@@ -669,7 +669,12 @@ elif my_answer == False:
 #                                                                                          #
 #   A For loop could theoretically be run forever, if you give the range as a very         # 
 #   large number. However, knowing both of these loops now, you can choose which one will  # 
-#   be most effective for your program.                                                    # 
+#   be most effective for your program.                                                    #
+#   The "%d" inside the string allows you to print a variable inside the string. The "%"   #
+#   on the outside of the quotes indicates which variable you are going to print. In this  #
+#   case, the variable is 'x'.                                                             #
+#   The "in" "range" part of this 'for' loop indicates while the variable 'x' is 'in'      #
+#   the range of 0 to 3, meaning from 0, 1, and 2. Range does not include the endpoint.    #
 #                                                                                          #
 #==========================================================================================#
 #                                       END OF THE BASICS                                  #     
